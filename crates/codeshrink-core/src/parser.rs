@@ -278,11 +278,10 @@ fn extract_signature(node: Node, source: &str) -> String {
         .unwrap_or(text.len())
         .min(200);
     // Ensure we don't split a multi-byte char
-    let safe_end = if text.is_char_boundary(end) {
-        end
-    } else {
-        text.floor_char_boundary(end)
-    };
+    let mut safe_end = end;
+    while safe_end > 0 && !text.is_char_boundary(safe_end) {
+        safe_end -= 1;
+    }
     text[..safe_end].trim().to_string()
 }
 
