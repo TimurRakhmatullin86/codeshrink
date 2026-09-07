@@ -14,5 +14,5 @@ name = "codeshrink"
 path = "src/main.rs"
 
 [dependencies]
-codeshrink-core = { path = "../codeshrink-core" }
+codeshrink-core = { version = "0.1.0", path = "../codeshrink-core" }
 clap = { version = "4", features = ["derive"] }
