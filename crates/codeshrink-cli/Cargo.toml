@@ -1,0 +1,18 @@
+[package]
+name = "codeshrink"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+description = "Query-aware AST code compression for LLMs. 80k LOC → 1.2k in 20ms."
+keywords = ["llm", "tree-sitter", "code-compression", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+
+[[bin]]
+name = "codeshrink"
+path = "src/main.rs"
+
+[dependencies]
+codeshrink-core = { path = "../codeshrink-core" }
+clap = { version = "4", features = ["derive"] }

@@ -1,0 +1,9 @@
+/target
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
+/bindings/node/node_modules
+/bindings/node/*.node
+/benchmarks/repos/
