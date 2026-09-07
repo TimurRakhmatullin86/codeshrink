@@ -22,5 +22,5 @@ The Rust binary is ~4MB with zero runtime dependencies. There's also an npm pack
 
 I wrote this because existing tools either dump the entire repo (Repomix) or require a persistent server/database (CodeGraph). I wanted something you can pipe directly into an LLM prompt: `codeshrink "where is auth?" | pbcopy`.
 
-Code: https://github.com/timurrus/codeshrink
+Code: https://github.com/TimurRakhmatullin86/codeshrink
 License: MIT/Apache-2.0
