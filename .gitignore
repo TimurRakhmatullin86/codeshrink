@@ -7,3 +7,10 @@
 /bindings/node/node_modules
 /bindings/node/*.node
 /benchmarks/repos/
+
+# Secrets
+.env
+.env.*
+
+# Logs
+*.log
