@@ -4,6 +4,9 @@
 
 Tree-sitter powered, not embeddings. Ask a question, get only the code that matters.
 
+[![Crates.io](https://img.shields.io/crates/v/codeshrink-cli)](https://crates.io/crates/codeshrink-cli)
+[![npm](https://img.shields.io/npm/v/codeshrink)](https://www.npmjs.com/package/codeshrink)
+[![CI](https://github.com/TimurRakhmatullin86/codeshrink/actions/workflows/ci.yml/badge.svg)](https://github.com/TimurRakhmatullin86/codeshrink/actions)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue)](LICENSE-MIT)
 
 ![CodeShrink demo](demo.gif)
